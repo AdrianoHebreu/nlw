@@ -18,7 +18,6 @@ export function App() {
     if (notesOnStorage) {
       return JSON.parse(notesOnStorage)
     }
-
     return []
   })
 
